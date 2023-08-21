@@ -1,7 +1,5 @@
-// abstracts
-@import "abstracts/variables";
-@import "abstracts/mixin";
-
-// base
-@import "base/typography";
-@import "base/color";
+@use "base";
+@use "components";
+@use "layouts";
+@use "utilities";
+@use "pages";
