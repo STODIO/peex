@@ -5,5 +5,5 @@ yarn 1.22.19
 typescript
 react-query
 sass
-``` 
-
+yarn add next-auth
+```
