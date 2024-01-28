@@ -1,9 +1,61 @@
-@use "breakpoints" as *;
+@use 'breakpoints' as *;
 
-@mixin mq($key) {
-  $size: map-get($breakpoints, $key);
-
-  @media only screen and (max-width: $size) {
+@mixin small() {
+  $max-width: map-get($breakpints, small);
+  @media only screen and (max-width: $max-width) {
     @content;
+  }
+}
+
+@mixin medium() {
+  $min-width: map-get($breakpints, small);
+  @media only screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin large() {
+  $min-width: map-get($breakpints, medium);
+  @media only screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin xlarge() {
+  $min-width: map-get($breakpints, large);
+  @media only screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin full-height() {
+  min-height: calc(var(--vh, 1vh) * 100 - 60px);
+  margin-top: 60px;
+  @include small() {
+    min-height: calc(var(--vh, 1vh) * 100 - 54px);
+    margin-top: 54px;
+  }
+}
+
+@mixin full-page-height() {
+  min-height: calc(var(--vh, 1vh) * 100 - 60px);
+  height: auto;
+  box-sizing: border-box;
+  padding-top: 60px;
+  @include small() {
+    min-height: calc(var(--vh, 1vh) * 100 - 54px);
+    padding-top: 54px;
+  }
+}
+
+.mobile {
+  @include medium() {
+    display: none;
+  }
+}
+
+.desktop {
+  @include small() {
+    display: none;
   }
 }
