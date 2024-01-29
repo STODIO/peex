@@ -1,7 +1,7 @@
-import { Metadata } from "next";
-import { MainLayout } from "@/components/layouts/main-layout";
-import "@/styles/style.scss";
-import SessionProvider from "@/components/providers/session-provider";
+import { Metadata } from 'next';
+import { MainLayout } from '@/components/layouts/main-layout';
+import '@/styles/style.scss';
+import SessionProvider from '@/components/providers/session-provider';
 
 // export const metadata: Metadata = {
 //   title: "title",

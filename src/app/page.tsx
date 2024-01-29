@@ -1,5 +1,5 @@
-import React from "react";
-import Home from "@/containers/home";
+import React from 'react';
+import Home from '@/containers/home';
 
 export default async function Page() {
   return <Home />;

@@ -1,11 +1,11 @@
-import { MetadataRoute } from "next";
+import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
-      userAgent: "*",
-      allow: ["/"],
-      disallow: ["/login/"],
+      userAgent: '*',
+      allow: ['/'],
+      disallow: ['/login/'],
     },
     // sitemap: "https://site-domain/sitemap.xml",
   };
