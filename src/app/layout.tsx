@@ -1,12 +1,7 @@
-import { MainLayout } from "@/components/layouts/main-layout";
 import { Metadata } from "next";
-<<<<<<< HEAD
-import SessionProvider from "@/components/providers/session-provider";
 import { MainLayout } from "@/components/layouts/main-layout";
-=======
 import "@/styles/style.scss";
 import SessionProvider from "@/components/providers/session-provider";
->>>>>>> efed838 (css module)
 
 // export const metadata: Metadata = {
 //   title: "title",
