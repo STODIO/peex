@@ -20,15 +20,37 @@ export default function ContentLayout({ children }: IContentLayoutProps) {
           {pathname === '/' ? (
             <Image
               src={'/images/icon.webp'}
-              alt={'stodio-logo'}
+              alt={'peex-icon'}
               priority={true}
               fill
               style={{ objectFit: 'contain' }}
             />
           ) : pathname.includes('business') ? (
-            <h1>BUSINESS</h1>
+            <>
+              <div className={styles.small_icon}>
+                <Image
+                  src={'/images/icon_black.webp'}
+                  alt={'peex-icon'}
+                  priority={true}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                />
+              </div>
+              <h1>BUSINESS</h1>
+            </>
           ) : (
-            <h1>CONTACT</h1>
+            <>
+              <div className={styles.small_icon}>
+                <Image
+                  src={'/images/icon_black.webp'}
+                  alt={'peex-icon'}
+                  priority={true}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                />
+              </div>
+              <h1>CONTACT</h1>
+            </>
           )}
         </div>
       </section>

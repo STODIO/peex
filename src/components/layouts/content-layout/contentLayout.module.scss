@@ -29,7 +29,16 @@
   }
 
   .left_content_wrapper {
-    @include abstracts.large() {
+    h1 {
+      display: inline-block;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 400;
+      @include abstracts.small() {
+        font-size: 24px;
+      }
+    }
+    @include abstracts.medium() {
       position: fixed;
       top: 50%;
       left: 25%;
@@ -39,6 +48,12 @@
       width: 358px;
       aspect-ratio: 358 / 241;
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .small_icon {
+      display: none;
     }
     @include abstracts.small() {
       position: inherit;
@@ -46,6 +61,15 @@
       .left_content {
         width: 260px;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        .small_icon {
+          position: relative;
+          display: block;
+          width: 160px;
+          height: 106px;
+          margin-bottom: 16px;
+        }
       }
     }
   }

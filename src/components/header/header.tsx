@@ -13,7 +13,7 @@ export default function Header() {
         <div className={styles.logo_wrapper}>
           <Image
             src={'/images/logo.webp'}
-            alt={'stodio-logo'}
+            alt={'peex-logo'}
             priority={true}
             fill
             style={{ objectFit: 'cover' }}
