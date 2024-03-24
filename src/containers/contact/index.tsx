@@ -26,13 +26,13 @@ export function Contact() {
         </p>
         <div className={styles.map_wrapper}>
           <Map
-            center={{ lat: 37.484015686342055, lng: 126.95560482303536 }}
+            center={{ lat: 37.478264133985995, lng: 126.95947194361382 }}
             style={{ width: '100%', height: '100%', border: '1px solid black' }}
           >
             <MapMarker
               position={{
-                lat: 37.484015686342055,
-                lng: 126.95560482303536,
+                lat: 37.478264133985995,
+                lng: 126.95947194361382,
               }}
             />
           </Map>

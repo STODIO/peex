@@ -77,12 +77,12 @@
   .right_content {
     @include abstracts.full-page-height();
     height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     margin-left: 50%;
     @include abstracts.small() {
       margin-left: 0;
+      width: 100%;
       box-sizing: border-box;
       padding-left: 20px;
       padding-right: 20px;
