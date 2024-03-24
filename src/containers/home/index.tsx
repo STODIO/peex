@@ -1,5 +1,7 @@
+import styles from './home.module.scss';
+
 const Home = () => {
-  return <></>;
+  return <div className={styles.wrapper}></div>;
 };
 
 export default Home;

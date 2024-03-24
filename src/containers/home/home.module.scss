@@ -1,0 +1,9 @@
+@use 'src/styles/abstracts';
+
+.wrapper {
+  width: 100%;
+  background: url('/images/pc_black.webp');
+
+  @include abstracts.full-height();
+  background-size: cover;
+}
