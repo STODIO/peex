@@ -30,14 +30,32 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 64px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
   @include abstracts.small() {
     column-gap: 0;
+    font-size: 14px;
   }
 
   .tab {
+    display: flex;
+    width: 116px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
     &.selected {
       color: white;
+      border-bottom: 2px solid white;
+    }
+    @include abstracts.small() {
+      width: 80px;
+      height: 45px;
+      &.selected {
+        border-bottom: none;
+      }
     }
   }
 }
