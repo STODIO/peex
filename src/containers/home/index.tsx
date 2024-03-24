@@ -2,7 +2,7 @@ import styles from './home.module.scss';
 
 const Home = () => {
   return (
-    <div className={styles.home_wrapper}>
+    <div className={'content_wrapper'}>
       <span className={styles.about}>ABOUT</span>
       <h1 className={styles.head}>PEEX</h1>
 

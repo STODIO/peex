@@ -1,4 +1,6 @@
+import { Contact } from '@/containers/contact';
+
 const Page = () => {
-  return <></>;
+  return <Contact />;
 };
 export default Page;

@@ -1,0 +1,10 @@
+@use 'src/styles/abstracts';
+
+.content_wrapper {
+  width: 597px;
+  padding-top: 250px;
+  @include abstracts.small() {
+    padding-top: 64px;
+    width: 100%;
+  }
+}
