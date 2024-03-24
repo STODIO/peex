@@ -29,18 +29,18 @@
 }
 
 @mixin full-height() {
-  min-height: calc(var(--vh, 1vh) * 100 - 80px);
+  min-height: calc(100dvh - 80px);
   margin-top: 80px;
   @include small() {
-    min-height: calc(var(--vh, 1vh) * 100 - 54px);
+    min-height: calc(100dvh - 54px);
     margin-top: 54px;
   }
 }
 
 @mixin full-page-height() {
-  min-height: calc(var(--vh, 1vh) * 100 - 80px);
+  min-height: calc(100dvh - 80px);
   @include small() {
-    min-height: calc(var(--vh, 1vh) * 100 - 54px);
+    min-height: calc(100dvh - 54px);
   }
 }
 

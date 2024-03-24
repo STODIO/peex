@@ -1,0 +1,38 @@
+@use 'src/styles/abstracts';
+
+.content_wrapper {
+  width: 100%;
+  @include abstracts.full-page-height();
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  &.black {
+    background: url('/images/pc_black.webp');
+    background-attachment: fixed;
+    background-size: cover;
+
+    @include abstracts.small() {
+      background: url('/images/mobile_black.webp');
+    }
+  }
+  &.white {
+    background: url('/images/pc_white.webp');
+    background-attachment: fixed;
+    background-size: cover;
+
+    @include abstracts.small() {
+      background: url('/images/mobile_white.webp');
+    }
+  }
+
+  .left_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(var(--vh, 1vh) * 100 - 80px);
+    position: fixed;
+  }
+  .right_content {
+    margin-top: 293px;
+  }
+}

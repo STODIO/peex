@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
-import { MainLayout } from '@/components/layouts/main-layout';
 import '@/styles/style.scss';
 import { Suit_Variable } from '@/app/font';
 import Header from '@/components/header/header';
+import ContentLayout from '@/components/layouts/content-layout/content-layout';
 
 // export const metadata: Metadata = {
 //   title: "title",
@@ -26,7 +26,9 @@ export default function RootLayout({
     <html lang="kr" className={Suit_Variable.className}>
       <body>
         <Header />
-        <MainLayout>{children}</MainLayout>
+        <main>
+          <ContentLayout>{children}</ContentLayout>
+        </main>
       </body>
     </html>
   );
