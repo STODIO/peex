@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { MainLayout } from '@/components/layouts/main-layout';
 import '@/styles/style.scss';
 import SessionProvider from '@/components/providers/session-provider';
+import { Suit_Variable } from '@/app/font';
 
 // export const metadata: Metadata = {
 //   title: "title",
@@ -22,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="kr">
+    <html lang="kr" className={Suit_Variable.className}>
       <body>
         <SessionProvider>
           <MainLayout>{children}</MainLayout>
