@@ -15,7 +15,7 @@ export default function ContentLayout({ children }: IContentLayoutProps) {
         pathname === '/' ? styles.black : styles.white
       }`}
     >
-      <div className={styles.left_content_wrapper}>
+      <section className={styles.left_content_wrapper}>
         <div className={styles.left_content}>
           {pathname === '/' ? (
             <Image
@@ -23,7 +23,7 @@ export default function ContentLayout({ children }: IContentLayoutProps) {
               alt={'stodio-logo'}
               priority={true}
               fill
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'contain' }}
             />
           ) : pathname.includes('business') ? (
             <h1>BUSINESS</h1>
@@ -31,8 +31,8 @@ export default function ContentLayout({ children }: IContentLayoutProps) {
             <h1>CONTACT</h1>
           )}
         </div>
-      </div>
-      <div className={styles.right_content}>{children}</div>
+      </section>
+      <section className={styles.right_content}>{children}</section>
     </div>
   );
 }

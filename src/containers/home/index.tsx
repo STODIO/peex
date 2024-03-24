@@ -1,7 +1,40 @@
 import styles from './home.module.scss';
 
 const Home = () => {
-  return <></>;
+  return (
+    <div className={styles.home_wrapper}>
+      <span className={styles.about}>ABOUT</span>
+      <h1 className={styles.head}>PEEX</h1>
+
+      <div className={styles.content}>
+        <h2 className={styles.content_head}>PEEX's VISON</h2>
+        <p>
+          전 세계가 하나의 콘텐츠를 동시에 즐길 수 있는 오늘날 인류에게 압도적인
+          콘텐츠 경험을 제공함으로써 대체 불가능한 기업이 되고자 합니다. 이
+          무한한 여정이 인류 경험 (People Experience) 개선으로 이어질 수 있도록
+          정진할 것입니다.
+        </p>
+      </div>
+      <div className={styles.content}>
+        <h2 className={styles.content_head}>PEEX's VISON</h2>
+        <p>
+          전 세계가 하나의 콘텐츠를 동시에 즐길 수 있는 오늘날 인류에게 압도적인
+          콘텐츠 경험을 제공함으로써 대체 불가능한 기업이 되고자 합니다. 이
+          무한한 여정이 인류 경험 (People Experience) 개선으로 이어질 수 있도록
+          정진할 것입니다.
+        </p>
+      </div>
+      <div className={styles.content}>
+        <h2 className={styles.content_head}>PEEX's VISON</h2>
+        <p>
+          전 세계가 하나의 콘텐츠를 동시에 즐길 수 있는 오늘날 인류에게 압도적인
+          콘텐츠 경험을 제공함으로써 대체 불가능한 기업이 되고자 합니다. 이
+          무한한 여정이 인류 경험 (People Experience) 개선으로 이어질 수 있도록
+          정진할 것입니다.
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
