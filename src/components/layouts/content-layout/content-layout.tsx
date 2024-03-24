@@ -25,8 +25,10 @@ export default function ContentLayout({ children }: IContentLayoutProps) {
               fill
               style={{ objectFit: 'cover' }}
             />
+          ) : pathname.includes('business') ? (
+            <h1>BUSINESS</h1>
           ) : (
-            styles.white
+            <h1>CONTACT</h1>
           )}
         </div>
       </div>
