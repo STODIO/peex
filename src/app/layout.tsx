@@ -5,18 +5,20 @@ import Header from '@/components/header/header';
 import ContentLayout from '@/components/layouts/content-layout/content-layout';
 import Script from 'next/script';
 
-// export const metadata: Metadata = {
-//   title: "title",
-//   description: "database",
-//   metadataBase: new URL(process.env.BASE_URL as string),
-//   openGraph: {
-//     title: "title",
-//     description: "descsription",
-//   },
-//   alternates: {
-//     canonical: "https://url",
-//   },
-// };
+export const metadata: Metadata = {
+  title: '픽스',
+  description:
+    '모든 사람이 더 자유롭고 행복하게 콘텐츠를 경험하는 세상을 만듭니다.',
+  metadataBase: new URL('https://peex.kr'),
+  openGraph: {
+    title: '픽스',
+    description:
+      '모든 사람이 더 자유롭고 행복하게 콘텐츠를 경험하는 세상을 만듭니다.',
+  },
+  alternates: {
+    canonical: 'https://peex.kr',
+  },
+};
 
 export default function RootLayout({
   children,

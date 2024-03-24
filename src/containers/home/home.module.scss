@@ -40,3 +40,23 @@
     line-height: 28px;
   }
 }
+
+.vc_wrapper {
+  width: 100%;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  padding: 0 15px 0 15px;
+  align-content: center;
+
+  .vc_img {
+    position: relative;
+    width: 100%;
+    height: 76px;
+    @include abstracts.small() {
+      height: 53px;
+    }
+    align-self: center;
+  }
+}
