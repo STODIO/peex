@@ -3,8 +3,6 @@
 .content_wrapper {
   width: 100%;
   @include abstracts.full-page-height();
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 
   &.black {
     background: url('/images/pc_black.webp');
@@ -25,14 +23,25 @@
     }
   }
 
-  .left_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(var(--vh, 1vh) * 100 - 80px);
+  .left_content_wrapper {
     position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(
+      -50%,
+      -50%
+    ); /* 요소의 정중앙이 화면의 중앙에 오도록 조정 */
+
+    .left_content {
+      width: 358px;
+      height: 241px;
+      position: relative;
+    }
   }
   .right_content {
-    margin-top: 293px;
+    @include abstracts.full-page-height();
+    height: 100%;
+    display: flex;
+    margin-left: 50%;
   }
 }
