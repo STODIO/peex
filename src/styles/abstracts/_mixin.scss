@@ -30,6 +30,15 @@
 
 @mixin full-height() {
   min-height: calc(var(--vh, 1vh) * 100 - 80px);
+  margin-top: 80px;
+  @include small() {
+    min-height: calc(var(--vh, 1vh) * 100 - 54px);
+    margin-top: 54px;
+  }
+}
+
+@mixin full-page-height() {
+  min-height: calc(var(--vh, 1vh) * 100 - 80px);
   @include small() {
     min-height: calc(var(--vh, 1vh) * 100 - 54px);
   }

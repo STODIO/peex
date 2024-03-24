@@ -1,6 +1,9 @@
 @use 'src/styles/abstracts';
 
 .header_wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 80px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -41,14 +44,16 @@
   }
 
   .tab {
+    opacity: 0.5;
+    color: #fff;
     display: flex;
     width: 116px;
     height: 50px;
     justify-content: center;
     align-items: center;
     &.selected {
-      color: white;
       border-bottom: 2px solid white;
+      opacity: 1;
     }
     @include abstracts.small() {
       width: 80px;
