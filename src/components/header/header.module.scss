@@ -6,7 +6,38 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(16px);
+  padding: 0 40px 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   @include abstracts.small() {
     height: 54px;
+    padding: 0 16px 0 16px;
+  }
+
+  .logo_wrapper {
+    position: relative;
+    width: 138px;
+    @include abstracts.small() {
+      width: 77px;
+    }
+    aspect-ratio: 138 / 35;
+  }
+}
+
+.tab_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 64px;
+
+  @include abstracts.small() {
+    column-gap: 0;
+  }
+
+  .tab {
+    &.selected {
+      color: white;
+    }
   }
 }
