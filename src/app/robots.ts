@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: ['/'],
     },
-    sitemap: 'https://peex.kr/sitemap.xml',
+    sitemap: 'https://www.peex.kr/sitemap.xml',
   };
 }

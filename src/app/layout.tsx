@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   title: '(주)픽스',
   description:
     '픽스는 기술과 금융을 활용하여 웹툰 웹소설 산업의 비즈니스 모델을 혁신하는 기업입니다.',
-  metadataBase: new URL('https://peex.kr'),
+  metadataBase: new URL('https://www.peex.kr'),
   openGraph: {
     title: '(주)픽스',
     description:
       '픽스는 기술과 금융을 활용하여 웹툰 웹소설 산업의 비즈니스 모델을 혁신하는 기업입니다.',
   },
   alternates: {
-    canonical: 'https://peex.kr',
+    canonical: 'https://www.peex.kr',
   },
 };
 
