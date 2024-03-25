@@ -2,6 +2,8 @@
 
 .content_wrapper {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   @include abstracts.full-page-height();
   @include abstracts.small() {
     display: flex;
@@ -10,25 +12,27 @@
   }
 
   &.black {
-    background: url('/images/pc_black.webp');
+    background-image: url('/images/pc_black.webp');
     background-attachment: fixed;
     background-size: cover;
 
     @include abstracts.small() {
-      background: url('/images/mobile_black.webp');
+      background-image: url('/images/mobile_black.webp');
     }
   }
   &.white {
-    background: url('/images/pc_white.webp');
+    background-image: url('/images/pc_white.webp');
     background-attachment: fixed;
     background-size: cover;
 
     @include abstracts.small() {
-      background: url('/images/mobile_white.webp');
+      background-image: url('/images/mobile_white.webp');
     }
   }
 
   .left_content_wrapper {
+    display: flex;
+    justify-content: center;
     h1 {
       display: inline-block;
       font-size: 44px;
@@ -39,10 +43,6 @@
       }
     }
     @include abstracts.medium() {
-      position: fixed;
-      top: 50%;
-      left: 25%;
-      transform: translate(-50%, -50%);
     }
     .left_content {
       width: 358px;
@@ -82,7 +82,6 @@
     @include abstracts.full-page-height();
     height: 100%;
     display: flex;
-    margin-left: 50%;
     @include abstracts.small() {
       margin-left: 0;
       width: 100%;

@@ -4,6 +4,7 @@ import { Suit_Variable } from '@/app/font';
 import Header from '@/components/header/header';
 import ContentLayout from '@/components/layouts/content-layout/content-layout';
 import Script from 'next/script';
+import Footer from '@/components/footer/footer';
 
 export const metadata: Metadata = {
   title: '픽스',
@@ -38,6 +39,7 @@ export default function RootLayout({
           }
           strategy={'beforeInteractive'}
         />
+        <Footer />
       </body>
     </html>
   );
