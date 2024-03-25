@@ -51,8 +51,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
     .small_icon {
+      position: relative;
+      width: 250px;
+      height: 165px;
     }
     @include abstracts.small() {
       position: inherit;
@@ -67,7 +73,6 @@
           display: block;
           width: 160px;
           height: 106px;
-          margin-bottom: 16px;
         }
       }
     }

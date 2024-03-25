@@ -1,7 +1,7 @@
 @use 'src/styles/abstracts';
 
 .content_wrapper {
-  width: 597px;
+  width: 630px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,5 +9,6 @@
   @include abstracts.small() {
     padding-top: 64px;
     width: 100%;
+    justify-content: inherit;
   }
 }

@@ -2,7 +2,7 @@
 
 .about {
   color: #fff;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 400;
   line-height: normal;
   @include abstracts.small() {
@@ -25,7 +25,6 @@
 
 .content {
   color: #fff;
-  margin-bottom: 100px;
   width: 100%;
   @include abstracts.small() {
     margin-bottom: 40px;
