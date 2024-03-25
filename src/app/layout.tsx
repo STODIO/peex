@@ -7,12 +7,12 @@ import Script from 'next/script';
 import Footer from '@/components/footer/footer';
 
 export const metadata: Metadata = {
-  title: '픽스',
+  title: '(주)픽스',
   description:
     '모든 사람이 더 자유롭고 행복하게 콘텐츠를 경험하는 세상을 만듭니다.',
   metadataBase: new URL('https://peex.kr'),
   openGraph: {
-    title: '픽스',
+    title: '(주)픽스',
     description:
       '모든 사람이 더 자유롭고 행복하게 콘텐츠를 경험하는 세상을 만듭니다.',
   },
