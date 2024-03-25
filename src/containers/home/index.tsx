@@ -10,19 +10,14 @@ const Home = () => {
       <div className={styles.content}>
         <h2 className={styles.content_head}>PEEX's VISON</h2>
         <p>
-          전 세계가 하나의 콘텐츠를 동시에 즐길 수 있는 오늘날 인류에게 압도적인
-          콘텐츠 경험을 제공함으로써 대체 불가능한 기업이 되고자 합니다. 이
-          무한한 여정이 인류 경험 (People Experience) 개선으로 이어질 수 있도록
-          정진할 것입니다.
-        </p>
-      </div>
-      <div className={styles.content}>
-        <h2 className={styles.content_head}>PEEX's VISON</h2>
-        <p>
-          전 세계가 하나의 콘텐츠를 동시에 즐길 수 있는 오늘날 인류에게 압도적인
-          콘텐츠 경험을 제공함으로써 대체 불가능한 기업이 되고자 합니다. 이
-          무한한 여정이 인류 경험 (People Experience) 개선으로 이어질 수 있도록
-          정진할 것입니다.
+          픽스는 "인류의 콘텐츠 경험 개선"이라는 미션 아래
+          <br />
+          웹툰 웹소설 산업의 비즈니스 모델을 혁신하는 기업입니다.
+          <br />
+          <br />
+          국내의 폭발적 성장과 글로벌 팽창을 동시에 이루어내고 있는 웹툰 웹소설
+          산업에서, <br />
+          기술과 금융을 활용하여 고객의 경험을 개선합니다.
         </p>
       </div>
       <div className={styles.content}>

@@ -1,4 +1,6 @@
+import Business from '@/containers/business';
+
 const Page = () => {
-  return <></>;
+  return <Business />;
 };
 export default Page;

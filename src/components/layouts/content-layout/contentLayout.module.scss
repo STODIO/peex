@@ -53,7 +53,6 @@
       align-items: center;
     }
     .small_icon {
-      display: none;
     }
     @include abstracts.small() {
       position: inherit;
@@ -78,7 +77,6 @@
     @include abstracts.full-page-height();
     height: 100%;
     display: flex;
-    justify-content: center;
     margin-left: 50%;
     @include abstracts.small() {
       margin-left: 0;
