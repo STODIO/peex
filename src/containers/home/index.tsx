@@ -4,11 +4,10 @@ import styles from './home.module.scss';
 const Home = () => {
   return (
     <div className={'content_wrapper'}>
-      <span className={styles.about}>ABOUT</span>
       <h1 className={styles.head}>PEEX</h1>
 
       <div className={styles.content}>
-        <h2 className={styles.content_head}>PEEX's VISON</h2>
+        <h2 className={styles.content_head}>PEEX'S VISION</h2>
         <p>
           픽스는 "인류의 콘텐츠 경험 개선"이라는 미션 아래
           <br />
