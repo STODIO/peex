@@ -29,8 +29,8 @@ export default function RootLayout({
   return (
     <html lang="kr" className={Suit_Variable.className}>
       <body>
-        <Header />
         <main>
+          <Header />
           <ContentLayout>{children}</ContentLayout>
         </main>
         <Script
