@@ -15,11 +15,11 @@ const Home = () => {
           <br />
           <br />
           국내의 폭발적 성장과 글로벌 팽창을 동시에 이루어내고 있는 웹툰 웹소설
-          산업에서, <br />
+          산업에서, <br className="desktop" />
           기술과 금융을 활용하여 고객의 경험을 개선합니다.
         </p>
       </div>
-      <div className={styles.content} style={{ marginTop: '100px' }}>
+      <div className={styles.content} style={{ marginTop: '80px' }}>
         <h2 className={styles.content_head}>BACKED BY</h2>
         <div className={styles.vc_wrapper}>
           <div className={styles.vc_img}>
