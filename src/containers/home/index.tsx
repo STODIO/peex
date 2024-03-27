@@ -19,7 +19,7 @@ const Home = () => {
           기술과 금융을 활용하여 고객의 경험을 개선합니다.
         </p>
       </div>
-      <div className={styles.content} style={{ marginTop: '80px' }}>
+      <div className={styles.content}>
         <h2 className={styles.content_head}>BACKED BY</h2>
         <div className={styles.vc_wrapper}>
           <div className={styles.vc_img}>
