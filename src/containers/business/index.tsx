@@ -12,7 +12,7 @@ const Business = () => {
         <p className={styles.content_text} style={{ marginTop: '16px' }}>
           그동안 창작자들의 스토리 제작 경험은 대단히 비효율적이었습니다.{' '}
           <br className={'desktop'} />
-          스토디오는 프로듀서 중심 스튜디오 체제에 데이터 분석, AI, 웹 기술을
+          스토디오는 프로듀서 중심 스튜디오 체제에 데이터 분석, 웹 기술을
           더함으로써, <br className={'desktop'} />
           창작자에게 압도적인 스토리 창작 환경을 제공하고 있습니다.
         </p>
