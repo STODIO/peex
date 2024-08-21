@@ -20,12 +20,12 @@ const Business = () => {
       <div className={styles.content_wrapper}>
         <h2 className={styles.content_head}>IP 비즈니스</h2>
         <p className={styles.content_text}>
-          픽스는 금융과 기술을 활용하여 원천 콘텐츠 IP 시장을 혁신하고 있습니다.
+          픽스는 금융적 기술을 활용하여 원천 콘텐츠 IP 시장을 혁신하고 있습니다.
         </p>
         <p className={styles.content_text} style={{ marginTop: '16px' }}>
           그동안 원천 콘텐츠 IP 시장은 IP를 소수만 소유하는 구조였습니다.
-          <br className={'desktop'} /> 픽스는 IP 유동화와 펀드 등의 접근을 통해
-          IP 소유 주체를 더욱 넓혀 나가고 있습니다.
+          <br className={'desktop'} /> 픽스는 금융적 기술의 접근을 통해 IP 소유
+          주체를 더욱 넓혀 나가고 있습니다.
         </p>
       </div>
     </div>
