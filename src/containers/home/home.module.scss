@@ -43,9 +43,8 @@
 
 .vc_wrapper {
   width: 100%;
-  display: grid;
+  display: flex;
   box-sizing: border-box;
-  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
   padding: 0 15px 0 15px;
   align-content: center;

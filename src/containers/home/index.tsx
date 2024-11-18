@@ -24,6 +24,26 @@ const Home = () => {
         <div className={styles.vc_wrapper}>
           <div className={styles.vc_img}>
             <Image
+              src={'/images/primer.webp'}
+              alt={'peex-icon'}
+              priority={true}
+              fill
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+          <div className={styles.vc_img}>
+            <Image
+              src={'/images/octagon.webp'}
+              alt={'peex-icon'}
+              priority={true}
+              fill
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+        </div>
+        <div className={styles.vc_wrapper}>
+          <div className={styles.vc_img}>
+            <Image
               src={'/images/FastVentures_logo.webp'}
               alt={'peex-icon'}
               priority={true}
