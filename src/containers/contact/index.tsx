@@ -21,18 +21,16 @@ export function Contact() {
           </div>
           <h2 className={styles.head}>위치</h2>
         </div>
-        <p className={styles.content_text}>
-          서울 관악구 낙성대로 2 낙성벤처창업센터
-        </p>
+        <p className={styles.content_text}>서울 관악구 관악로12길 86 2층</p>
         <div className={styles.map_wrapper}>
           <Map
-            center={{ lat: 37.478264133985995, lng: 126.95947194361382 }}
+            center={{ lat: 37.47717981671865, lng: 126.95705597392093 }}
             style={{ width: '100%', height: '100%', border: '1px solid black' }}
           >
             <MapMarker
               position={{
-                lat: 37.478264133985995,
-                lng: 126.95947194361382,
+                lat: 37.47717981671865,
+                lng: 126.95705597392093,
               }}
             />
           </Map>

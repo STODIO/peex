@@ -40,6 +40,15 @@ const Home = () => {
               style={{ objectFit: 'contain' }}
             />
           </div>
+          <div className={styles.vc_img}>
+            <Image
+              src={'/images/octagon.webp'}
+              alt={'peex-icon'}
+              priority={true}
+              fill
+              style={{ objectFit: 'contain', opacity: 0 }}
+            />
+          </div>
         </div>
         <div className={styles.vc_wrapper}>
           <div className={styles.vc_img}>
